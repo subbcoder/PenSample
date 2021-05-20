@@ -202,11 +202,17 @@
 				
 			  </div>
 			  <div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  
+				<!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
 			  </div>
 			  
 			  <div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<div class="input-group mb-3">
+				  <input type="text" class="form-control" placeholder="Имя пользователя получателя" aria-label="Имя пользователя получателя" aria-describedby="button-addon2">
+				  <div class="input-group-append">
+					<button class="btn btn-outline-secondary" type="button" id="button-addon2">Кнопка</button>
+				  </div>
+				</div>				
 			  </div>
 			</div>
 
@@ -382,9 +388,349 @@
 		</div>
 
 		</br>
+				
+		<div class="container-fluid">
+		  <h2>More Unequal Columns</h2>
+		  <div class="row">
+			<div class="col-8 bg-success">1 of 2</div>
+			<div class="col-4 bg-warning">2 of 2</div>
+		  </div>
+		  <br>
+		  <div class="row">
+			<div class="col-2 bg-success">1 of 4</div>
+			<div class="col-2 bg-warning">2 of 4</div>
+			<div class="col-2 bg-success">3 of 4</div>
+			<div class="col-6 bg-warning">4  of 4</div>
+		  </div>
+		  <br>
+		  <div class="row">
+			<div class="col-4 bg-success">1 of 4</div>
+			<div class="col-6 bg-warning">2 of 4</div>
+			<div class="col bg-success">3 of 4</div>
+			<div class="col bg-warning">4  of 4</div>
+		  </div>
+		</div>	
+
+		</br>			
+		
+		<div class="container-fluid">
+		  <div class="row">
+			<div class="col-8 bg-warning">
+			  .col-8
+			  <div class="row">
+				<div class="col-6 bg-light">.col-6</div>
+				<div class="col-6 bg-secondary">.col-6</div>
+			  </div>
+			  <div class="row">
+				<div class="col-3 bg-light">.col-3</div>
+				<div class="col-9 bg-secondary">.col-9</div>
+			  </div>
+			</div>
+			<div class="col-4 bg-success">.col-4</div>
+		  </div>
+		</div>
+
+		</br>
+		</br>
+		
+		<div class="container-fluid">
+		  <h1>Mix and Match</h1>
+		  <p>Resize the browser window to see the effect.</p> 
+		  <p>This example demonstrates a 50%/50% split on extra small devices and 75%/25% split on larger devices.</p>      
+		  <div class="container-fluid">     
+			<div class="row">
+			  <div class="col-6 col-sm-9 bg-success">col-6 col-sm-9</div>
+			  <div class="col-6 col-sm-3 bg-warning">col-6 col-sm-3</div>
+			</div>
+		  </div>
+		  <br>
+		  <p>This example demonstrates a 58%/42% split on extra small, small and medium devices and 66.3%/33.3% split on large and xlarge devices.</p>      
+		  <div class="container-fluid">     
+			<div class="row">
+			  <div class="col-7 col-lg-8 bg-success">col-7 col-lg-8</div>
+			  <div class="col-5 col-lg-4 bg-warning">col-5 col-lg-4</div>
+			</div>
+		  </div>
+		  <br>
+		  <p>This example demonstrates a 25%/75% split on small devices, a 50%/50% split on medium devices, and a 33%/66% split on large and xlarge devices. On extra small devices, it will automatically stack (100%).</p>      
+		  <div class="container-fluid">     
+			<div class="row">
+			  <div class="col-sm-3 col-md-6 col-lg-4 bg-success">col-sm-3 col-md-6 col-lg-4</div>
+			  <div class="col-sm-9 col-md-6 col-lg-8 bg-warning">col-sm-9 col-md-6 col-lg-8</div>
+			</div>
+		  </div>
+		</div>
+		
+		</br>
+		
+
+
+
+
+		<!-- Button trigger modal -->
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop2">
+		  Запустить модальное окно со статическим фоном
+		</button>
+
+		<!-- Модальное окно -->
+		<div class="modal fade" id="staticBackdrop2" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+			<div class="modal-content">
+			  <div class="modal-header">
+				
+				<h5 class="modal-title" id="staticBackdropLabel">Заявка</h5>
+				
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+			  <div class="modal-body">
+				<div class="container-fluid">     
+				  <form class="needs-validation" novalidate>
+					  <div class="form-row">
+						<div class="col-md-6">
+							
+							<div class="row">
+								<div class="col">							
+									<span class="modal-title"><b>Дата добавления:</b></span>
+								</div>							
+								<div class="col">							
+									<span>27 апреля 2021 11:35</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">							
+									<span class="modal-title"><b>Последнее изменение:</b></span>
+								</div>							
+								<div class="col">							
+									<span>20 мая 2021 11:31</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">							
+									<span class="modal-title"><b>Задача:</b></span>
+								</div>							
+								<div class="col">							
+									<span>Произвольная заявка</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">							
+									<span class="modal-title"><b>Помещение:</b></span>
+								</div>							
+								<div class="col">							
+									<span>КОМНАТА №1</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">							
+									<span class="modal-title"><b>Строение:</b></span>
+								</div>							
+								<div class="col">							
+									<span>КОРПУС №1</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">							
+									<span class="modal-title"><b>Постановщик:</b></span>
+								</div>							
+								<div class="col">							
+									<span>Супрунова Светлана Владимировна</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+
+							<div class="row">
+								<div class="col">							
+									<label for="validationCustom04"><b>Исполнитель:</b></label>
+								</div>							
+								<div class="col">							
+									<div class="col">
+									  <select class="custom-select" id="validationCustom04" required>
+										<option selected disabled value="">Выбрать...</option>
+										<option>...</option>
+									  </select>
+									  <div class="invalid-feedback">
+										Пожалуйста, выберите исполнителя.
+									  </div>
+									</div>						
+								</div>
+							</div>	
+
+							<div class="row">
+								<div class="col">							
+									<span class="modal-title"><b>Подразделение:</b></span>
+								</div>							
+								<div class="col">							
+									<span>АСУ</span>
+								</div>
+							</div>	
+							
+							<div class="row">
+								<div class="col">							
+									<span class="modal-title"><b>Задача выполнена за:</b></span>
+								</div>							
+								<div class="col">							
+									<span>23 дня</span>
+								</div>
+							</div>	
+							
+							<div class="row">
+								<div class="col">							
+									<label for="validationCustom04"><b>Статус:</b></label>
+								</div>							
+								<div class="col">							
+									<div class="col">
+									  <select class="custom-select" id="validationCustom04" required>
+										<option selected disabled value="">Выбрать...</option>
+										<option>...</option>
+									  </select>
+									  <div class="invalid-feedback">
+										Пожалуйста, измените статус.
+									  </div>
+									</div>	
+								</div>
+							</div>	
+						</div>
+					  </div>
+					  
+					  <div class="form-row">
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col">							
+									<span class="modal-title"><b>Дополнительная информация:</b></span>
+								</div>							
+								<div class="col">							
+									<span>Бочековская Ольга Алексеевна - нет проходов, живет</span>
+								</div>
+							</div>	
+						</div>
+					  </div>
+					  
+					  </br>
+					  
+					  <button class="btn btn-primary" type="submit">Отправить форму</button>
+				  </form>		
+				</div>	  
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Прочел и принимаю</button>
+			  </div>
+			  
+			  <div class="modal-footer">
+				<div class="input-group mb-3">
+				  <input type="text" class="form-control" placeholder="Имя пользователя получателя" aria-label="Имя пользователя получателя" aria-describedby="button-addon2">
+				  <div class="input-group-append">
+					<button class="btn btn-outline-secondary" type="button" id="button-addon2">Кнопка</button>
+				  </div>
+				</div>				
+			  </div>
+			  
+			</div>
+		  </div>
+		</div>
+		
+		
+		</br>
 		
 		
 		
+		<!-- Trigger the modal with a button -->
+		<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Окно заявки</button>
+
+		<!-- Modal -->
+		<div id="myModal2" class="modal fade" role="dialog">
+		  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="staticBackdropLabel">Заявка</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+			  <div class="modal-body">					
+				
+				<form class="needs-validation" novalidate>
+				  <div class="form-row">
+					<div class="col-md-6 mb-3">
+					  <label for="validationCustom01">Имя</label>
+					  <input type="text" class="form-control" id="name" value="Иван">
+					</div>
+					<div class="col-md-6 mb-3">
+					  <label for="validationCustom02">Фамилия</label>
+					  <input type="text" class="form-control" id="validationCustom02" value="Петров" required>
+					  <div class="valid-feedback">
+						Выглядит хорошо!
+					  </div>
+					</div>
+				  </div>
+				  <div class="form-row">
+					<div class="col-md-6 mb-3">
+					  <label for="validationCustom03">Город</label>
+					  <input type="text" class="form-control" id="validationCustom03" required>
+					  <div class="invalid-feedback">
+						Укажите действующий город.
+					  </div>
+					</div>
+					<div class="col-md-3 mb-3">
+					  <label for="validationCustom04">Область</label>
+					  <select class="custom-select" id="validationCustom04" required>
+						<option selected disabled value="">Выбрать...</option>
+						<option>...</option>
+					  </select>
+					  <div class="invalid-feedback">
+						Пожалуйста, выберите допустимую область.
+					  </div>
+					</div>
+					<div class="col-md-3 mb-3">
+					  <label for="validationCustom05">Индекс</label>
+					  <input type="text" class="form-control" id="validationCustom05" required>
+					  <div class="invalid-feedback">
+						Пожалуйста, предоставьте действующий почтовый индекс.
+					  </div>
+					</div>
+				  </div>
+				  <div class="form-group">
+					<div class="form-check">
+					  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+					  <label class="form-check-label" for="invalidCheck">
+						Согласитесь с условиями
+					  </label>
+					  <div class="invalid-feedback">
+						Вы должны согласиться перед отправкой.
+					  </div>
+					</div>
+				  </div>
+				  <button class="btn btn-primary" type="submit">Отправить форму</button>
+				</form>						
+				
+			  </div>
+			  <div class="modal-footer">
+			  
+				<!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+			  </div>
+			  
+			  <div class="modal-footer">
+				<div class="input-group mb-3">
+				  <input type="text" class="form-control" placeholder="Имя пользователя получателя" aria-label="Имя пользователя получателя" aria-describedby="button-addon2">
+				  <div class="input-group-append">
+					<button class="btn btn-outline-secondary" type="button" id="button-addon2">Кнопка</button>
+				  </div>
+				</div>				
+			  </div>
+			  
+		  
+			</div>
+
+		  </div>
+		</div>
+
+		</br>
+		</br>
+
 		
 		</div>
 	  </div>
